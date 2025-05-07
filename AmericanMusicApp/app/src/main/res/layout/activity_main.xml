@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/howlingImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/howling_wolf"
+            android:contentDescription="Howling Wolf Image"/>
+
+        <Button
+            android:id="@+id/playHowling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Howling Wolf"
+            android:onClick="playHowling"/>
+
+        <Button
+            android:id="@+id/stopHowling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Howling Wolf"
+            android:onClick="stopHowling"/>
+
+        <Button
+            android:id="@+id/pauseHowling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause Howling Wolf"
+            android:onClick="pauseHowling"/>
+
+        <ImageView
+            android:id="@+id/woodyImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/woody_guthrie"
+            android:contentDescription="Woody Guthrie Image"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/playWoody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Woody Guthrie"
+            android:onClick="playWoody"/>
+
+        <Button
+            android:id="@+id/stopWoody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Woody Guthrie"
+            android:onClick="stopWoody"/>
+
+        <Button
+            android:id="@+id/pauseWoody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause Woody Guthrie"
+            android:onClick="pauseWoody"/>
+
+    </LinearLayout>
+</ScrollView>

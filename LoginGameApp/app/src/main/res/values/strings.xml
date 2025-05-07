@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hwk1</string>
+    <string name="welcome_message">Welcome, %1$s!</string>
+    <string name="welcome_image_description">Welcome Image</string>
+</resources>

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Hwk2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Hwk2" parent="Base.Theme.Hwk2" />
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#F8BBD0</item> <!-- Light Pink -->
+        <item name="colorPrimaryVariant">#F8BBD0</item>
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- White text -->
+        <item name="colorAccent">#F8BBD0</item>
+        <item name="android:buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">#F8BBD0</item> <!-- Ensures light pink buttons -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White text -->
+    </style>
+</resources>
